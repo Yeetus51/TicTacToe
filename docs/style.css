@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+body{
+    background-color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    position: relative;
+}
+.winpopup{
+    position: absolute;
+    width: 520px;
+    height: 200px;
+    border-radius: 15px;
+    background-color: rgb(206, 151, 0);
+
+    padding: 20px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.winpopup .winner{
+    color: black;
+    font-size: 30px;
+    font-weight: 800;
+}
+.winpopup button{
+    background-color: white;
+    font-size: 25px;
+    padding: 10px 30px;
+    border-radius: 100px;
+}
+
+.container{
+    background-color: rgb(255, 208, 0);
+    border-radius: 25px;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.gametitle{
+    color: black;
+    font-size: 50px;
+    text-align: center;
+    font-weight: 500;
+
+}
+
+.gameplay{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(231, 231, 231);
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tilecontainer{
+    width: 95%;
+    height: 95%;
+
+    background-color: white;
+    border: 2px solid rgb(70, 70, 70);
+
+
+    display: grid;
+
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+}
+.tile{
+    border: 4px solid rgb(117, 117, 117);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tile p {
+    font-size: 50px;
+}
+
+.buttons button{
+    padding: 15px 60px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 100px;
+}
+
+
+
+
+.container .buttons{
+    display: flex;
+
+}
+
+
